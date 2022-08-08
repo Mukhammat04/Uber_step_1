@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+    .promo {
+        min-height: 635px;
+        .header {
+            &__logo {
+                width: 240px;
+            }
+            &__phone {
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        min-height: 400px;
+        position: relative;
+        .header {
+            position: relative;
+            &__logo {
+                width: 200px;
+            }
+            &__official {
+                display: none;
+            }
+            &__phone {
+                display: block;
+                position: absolute;
+                right: 10px;
+            }
+            .button {
+                &__down {
+                    position: absolute;
+                    display: block;
+                    top: 30px;
+                    right: 20px;
+                }
+            }
+        }
+        &__wrapper {
+        }
+        &__header {
+            font-size: 25px;
+            position: absolute;
+            left: 10px;
+            line-height: 0;
+        }
+        &__subheader {
+            font-size: 18px;
+            position: absolute;
+            left: 10px;
+            margin-top: 40px;
+            line-height: 22px;
+        }
+        &__icons {
+            width: 380px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 100px;
+            padding-right: 5px;
+        &__icon {
+            font-size: 1px;
+            width: 100px;
+        }
+            }
+        &__link {
+            font-size: 14px;
+        }
+        }
+    .advantages {
+        padding: 45px 0 40px 0;
+        &__wrapper {
+            display: block;
+            padding-top: 20px;
+        }
+        &__item {
+            text-align: center;
+            margin: 0 auto;
+            img {
+                margin-top: 45px;
+            }
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 20px;
+        }
+        &__subtitle {
+            font-size: 15px;
+            margin-top: 25px;
+        }
+        &__descr {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+
+}
